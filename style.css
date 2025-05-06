@@ -1,3 +1,8 @@
+:root {
+  --primary-color: Centra No2, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -70,7 +75,6 @@ svg {
   font-size: 36px;
   margin-left: 15rem;
 }
-
 .seek-container {
   font-family: Centra No2, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, sans-serif;
@@ -83,6 +87,9 @@ svg {
   align-items: center;
   padding-right: 1rem;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .seek-container button {
@@ -94,6 +101,7 @@ svg {
   border-radius: 2rem;
   font-size: 2ch;
   margin-left: 1rem;
+  font-weight: bold;
 }
 
 .seek-person div,
@@ -116,4 +124,79 @@ svg {
 
 .container-2 {
   margin-top: 15rem;
+  font-family: var(--primary-font);
+}
+
+.register-subcontainer {
+  background-color: rgb(26, 26, 73);
+  width: 67rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  height: 4.5rem;
+  padding-left: 1rem;
+  position: relative;
+  margin: 0 auto;
+}
+.container-2 .register-subcontainer p {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: Centra No2, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif;
+  font-weight: 500;
+}
+.container-2 .register-subcontainer button {
+  background-color: #0e66eb;
+  border-style: none;
+  color: #ffffff;
+  width: 4.5rem;
+  height: 2.1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 1.5ch;
+  font-family: Centra No2, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif;
+  position: absolute;
+  right: 1rem;
+}
+.register-icon {
+  background-color: #9ec4eb;
+  width: fit-content;
+  padding: 0.65rem;
+  border-radius: 2rem;
+}
+.accommodation-container h2 {
+  font-size: 27px;
+  color: #191e3b;
+  font-family: var(--primary-color);
+  font-weight: 500;
+}
+.accommodation-images img {
+  border-radius: 1rem;
+  height: 17rem;
+  position: relative;
+}
+.accommodation-container {
+  padding-top: 1rem;
+}
+
+.accommodation-images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.accommodation-images p {
+  position: absolute;
+  top: 66.8rem;
+  padding-left: 0.4rem;
+  font-family: var(--primary-color);
+  color: #ffffff;
+  font-weight: 500;
+  width: fit-content;
+}
+.accommodation-container-wrap {
+  margin-left: 13.5rem;
 }

@@ -315,3 +315,16 @@ svg {
   line-height: 0.5rem;
   font-weight: 600;
 }
+
+.fifth-section {
+  margin-left: 12.5rem;
+  font-family: var(--primary-color);
+  color: #191e3b;
+  margin-top: 1rem;
+}
+.fifth-section-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-top: 1.45rem;
+}

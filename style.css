@@ -48,7 +48,7 @@ svg {
   font-family: Centra No2, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, sans-serif;
 }
-.container {
+.container-1 {
   position: relative;
 }
 
@@ -57,12 +57,63 @@ svg {
   height: 35.5rem;
   object-fit: cover;
   position: absolute;
+  filter: brightness(60%);
   z-index: -1;
 }
-
+.hero-section {
+  margin-top: 14rem;
+}
 .hero-section .hero-para {
   color: #ffffff;
   font-family: "Lardent Pro Slab", Georgia, Times, "Times New Roman", serif;
   font-weight: 400;
   font-size: 36px;
+  margin-left: 15rem;
+}
+
+.seek-container {
+  font-family: Centra No2, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: fit-content;
+  height: 4rem;
+  border-radius: 0.8rem;
+  align-items: center;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.seek-container button {
+  background-color: #0e66eb;
+  border-style: none;
+  color: #ffffff;
+  width: 4rem;
+  height: 2.9rem;
+  border-radius: 2rem;
+  font-size: 2ch;
+  margin-left: 1rem;
+}
+
+.seek-person div,
+.seek-calendar div {
+  line-height: 0.1rem;
+}
+
+.seek-location,
+.seek-calendar,
+.seek-person {
+  display: flex;
+  width: fit-content;
+  height: 2.9rem;
+  padding-left: 1rem;
+  padding-right: 10rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid #bbb6b6;
+}
+
+.container-2 {
+  margin-top: 15rem;
 }
